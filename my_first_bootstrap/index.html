@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>KUSO</title>
+	<meta charset="utf-8">	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css/restaurant.css">
+</head>
+<body > 
+	<style type="text/css">
+		.jumbotron{
+			background-image: url("image/background_food.png");
+			background-size: cover;
+			text-shadow: 0.2em 0.2em 0.2em;
+			color: #2F4F4F
+
+		}
+
+	</style>
+	<nav class="navbar navbar-default">
+ 		<div class="container-fluid">
+	   		 <div class="navbar-header">
+	      		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	        		<span class="icon-bar"></span>
+	        		<span class="icon-bar"></span>
+	        		<span class="icon-bar"></span>                        
+	      		</button>
+	      		<a class="navbar-brand" href="#">MainItems "KUSO"</a>
+	   		 </div>
+	    	 <div class="collapse navbar-collapse" id="myNavbar">
+	     		 <ul class="nav navbar-nav">
+	        		<li class="active"><a href="#">Introduction <span class="sr-only"></span></a></li>        
+	       		    <li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+								Foods <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="foods.html">Hot boiled rice</a></li>
+								<li><a href="foods.html">Beef</a></li>
+								<li><a href="foods.html">Humburger</a></li>
+							</ul>
+					</li>
+	        		<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+							Напиток <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Водка</a></li>
+							<li><a href="#">Коняк</a></li>
+							<li><a href="#">Вранди</a></li>
+						</ul>
+					</li>
+	      		</ul> 
+	      		<form class="navbar-form navbar-left" >
+  					<div class="input-group">
+   					 <input type="text" class="form-control" placeholder="Search">
+    					<div class="input-group-btn">
+      						<button class="btn btn-default" type="submit">
+        						<i class="glyphicon glyphicon-search"></i>
+      						</button>
+   						 </div>
+  					</div>
+				</form> 
+				<ul class="nav navbar-nav navbar-right">
+        			<li><a href="register.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+       				<li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      			</ul>    
+	    	</div>
+		</div>
+	</nav>	
+						
+	<div class="container">
+		<div class="jumbotron">
+			<h1 class="text-center">Introduce My Restaurant Website "KUSO"</h1>
+			<p class="text-center">KUSO  is restaurant serving site for youngers. At the website you can order different foods for marriage quickly!</p>
+			<p class="text-center"><a class="btn btn-primary btn-lg" href="#" role="button">Go to see menu.</a></p>
+		</div>	
+		<div class="row">
+			<div class="col-md-4">
+				<h4>Characteristics</h4>	
+				<p>KUSO is the wonderful and modernal restaurant website for younger</p>
+				<p><a class="btn btn-default" data-target="#modal" data-toggle="modal">See the menu detail</a></p>
+			</div>
+
+			<div class="col-md-4">
+				<h4>Foods</h4>	
+				<p>KUSO is serving differnt asian and euro foods for customers</p>
+				<p><a class="btn btn-default" href="#">See the foods detail</a></p>
+			</div>
+
+			<div class="col-md-4">
+				<h4>Напиток</h4>	
+				<p>в ресторане есть много известных вин, таких как вино "Мотае"</p>
+				<p><a class="btn btn-default" href="#">Смотрите подробности о вине</a></p>
+			</div>
+			
+			
+		</div>	
+	</div>
+
+	<div class="panel panel-primary">
+		<div class="panel-heading">
+			<h3 class="panel-title"><span class="glyphicon glyphicon-pencil"></span>&nbsp; &nbsp; Recently ordered menu</h3>
+		</div>
+		<div class="panel-body">
+			<div class="media">
+				<div class="media-left">
+					<a href="#"><img src="image/sandwich.png" class="media-object" alt="sandwich"></a>
+				</div>
+				<div class="media-body">
+					<h4 class="media-heading"><a href="#">Sandwich food</a>&nbsp; <span class="badge">New</span></h4>
+					Sandwich food is the mixture of the original sandwich, bread and vegetable etc(cost:25$).
+				</div>
+			</div>
+			<hr>
+			<div class="media">
+				<div class="media-left">
+					<a href="#"><img src="image/salad.png" class="media-object" alt="sandwich"></a>
+				</div>
+				<div class="media-body">
+					<h4 class="media-heading"><a href="#">Salad food</a>&nbsp; <span class="badge">New</span></h4>
+					Salad food is the mixture of the miyonez, fruits and vegetable etc (cost:20$).
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<footer style="background-color: #000000; color=#ffffff">
+		<div class="container">
+			<br>
+			<div class="row">
+				<div class="col-sm-2" style="text-align: center;">
+					<h5>Copyright &copy 2020</h5>
+					<h5>JKS(jo guk song)</h5>
+				</div>
+				<div class="col-sm-4" style="text-align: center;">
+					<h4>Introduce Website Administrator</h4>
+					<p>JKS is the wonderful Website and Android/IOS developer</p>
+				</div>
+				<div class="col-sm-2">
+					<h4 style="text-align: center;">Navigation</h4>
+					<div class="list-group" >
+						<a href="#" class="list-group-item" >Introduce</a>
+						<a href="#" class="list-group-item" >Foods</a>
+						<a href="#" class="list-group-item" >Drinks</a>
+					</div>					
+				</div>
+				<div class="col-sm-2">
+					<h4 style="text-align: center;">SNS</h4>
+					<div class="list-group" >
+						<a href="#" class="list-group-item" >Facebook</a>
+						<a href="#" class="list-group-item" >Youtube</a>
+						<a href="#" class="list-group-item" >Yandex</a>
+					</div>					
+				</div>
+				<div class="col-sm-2"><h4 style="text-align:  center;"><span class="glyphicon glyphicon-ok"></span>&nbsp; By JKS</h4></div>
+
+			</div>
+		</div>
+
+	</footer>
+	<div class="row">
+		<div class="modal" id="modal" tabindex="-1">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						Characteristics
+						<button class="close" data-dismiss="modal">&times;</button>
+					</div>
+					<div class="modal-body" style="text-align: center;">
+						Restaurant is opened at the 25th, March, 2020.<br>
+						Our main slogan is "maximum working and salary, minimum wasting, quickly growing".
+						Welcome to KUSO(Добро пожаловать наш ресторан)
+						<img src="image/modal.png" id="imgaepreview" style="height: 256px; width: 350px">
+					</div>
+				</div>
+			</div>	
+		</div>
+	</div>
+
+</body>
+</html>
